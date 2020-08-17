@@ -7,9 +7,9 @@
 ### 2. Segmentation of CT images using Fuzzy c-means.
 ### 3. Segmentation of CT images using K-means. 
 
-## All the segmentation tools are followed by applying connected componant labelling algorithm for selecting local AIF. 
+### All the segmentation tools are followed by applying connected componant labelling algorithm for selecting local AIF. 
 
-## Signal attenuation curve is drawn from the selected AIF location then using fitting spline, the Time to peak and maximum concentration are calculated from the curve. 
+### Signal attenuation curve is drawn from the selected AIF location then using fitting spline, the Time to peak and maximum concentration are calculated from the curve. 
 
 
 ## Files Discription:
