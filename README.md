@@ -14,7 +14,7 @@
 
 ## Files Discription:
 
-### attcurve.py > is an semi automatic algorithm uses GMM segmentation tool, it requires only selecting a point for the Arterial Input Function on the first frame of the loaded file, thus the script will draw automatically the signal attenuation curve from the selected artery or vien. 
+### attcurve.py > is a semi automatic algorithm uses GMM segmentation tool, it requires only selecting a point for the Arterial Input Function on the first frame of the loaded file, thus the script will draw automatically the signal attenuation curve from the selected artery or vien. 
 
 ## The following notebooks shows the different segmentation tools and the results 
 ### \Notebooks\attcurvUsingfuzzy > 
