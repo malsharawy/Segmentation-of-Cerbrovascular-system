@@ -12,11 +12,11 @@
 ## Signal attenuation curve is drawn from the selected AIF location then using fitting spline, the Time to peak and maximum concentration are calculated from the curve. 
 
 
-# Files Discription:
+## Files Discription:
 
-## attcurve.py > is an semi automatic algorithm uses GMM segmentation tool, it requires only selecting a point for the Arterial Input Function on the first frame of the loaded file, thus the script will draw automatically the signal attenuation curve from the selected artery or vien. 
+### attcurve.py > is an semi automatic algorithm uses GMM segmentation tool, it requires only selecting a point for the Arterial Input Function on the first frame of the loaded file, thus the script will draw automatically the signal attenuation curve from the selected artery or vien. 
 
-The following notebooks shows the different segmentation tools and the results 
-## \Notebooks\attcurvUsingfuzzy > 
-## \Notebooks\attcurvUsingkmeans > 
-## \Notebooks\attcurvUsingGMM > 
+## The following notebooks shows the different segmentation tools and the results 
+### \Notebooks\attcurvUsingfuzzy > 
+### \Notebooks\attcurvUsingkmeans > 
+##3 \Notebooks\attcurvUsingGMM > 
