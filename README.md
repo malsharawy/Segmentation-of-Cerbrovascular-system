@@ -19,4 +19,4 @@
 ## The following notebooks shows the different segmentation tools and the results 
 ### \Notebooks\attcurvUsingfuzzy > 
 ### \Notebooks\attcurvUsingkmeans > 
-##3 \Notebooks\attcurvUsingGMM > 
+### \Notebooks\attcurvUsingGMM > 
