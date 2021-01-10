@@ -1,7 +1,11 @@
 # CT Perfusion Repo
-# Aim: Generating perfusion maps from CT images using different segmentation tools.
+# Aim: Generating perfusion maps from CTA images using different segmentation tools.
 
-## This repo has 3 segmentation tools:
+## The developed approach uses only the specific DEN file format ""  as input.
+
+### First enhancement with normalization and contrast stretching are performed. 
+
+### Currently three segmentation algorithm were developed for vessels extraction:
 
 ### 1. Segmentation of CTA images using Gaussian mixture model with expectation maximization.
 ### 2. Segmentation of CTA images using Fuzzy c-means.
@@ -14,9 +18,4 @@
 
 ## Files Discription:
 
-### attcurve.py > is a semi automatic algorithm uses GMM segmentation tool, it requires only selecting a point for the Arterial Input Function on the first frame of the loaded file, thus the script will draw automatically the signal attenuation curve from the selected artery or vien. 
-
-## The following notebooks shows the different segmentation tools and the results 
-### \Notebooks\attcurvUsingfuzzy > 
-### \Notebooks\attcurvUsingkmeans > 
-### \Notebooks\attcurvUsingGMM > 
+### extractionTool.py > is a semi automatic algorithm uses GMM segmentation tool, it requires only selecting a point for the Arterial Input Function on the first frame of the loaded file, thus the script will draw automatically the signal attenuation curve from the selected artery or vien. 
