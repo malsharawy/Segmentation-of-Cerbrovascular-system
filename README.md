@@ -1,4 +1,4 @@
-# CT Perfusion Repo
+
 # Project title: "Brain vascular system segmentation using multisweep C-Arm CT protocols.
 
 # Aim: Investigate whether the reconstructed volume of 4D-CTA using time sepration technique provides sufficient diagnostic information by testing 
