@@ -3,8 +3,8 @@
 
 ## Aim: Investigate whether the reconstructed volume of 4D-CTA using time sepration technique provides sufficient diagnostic information by testing 
 
-  ## 1. The ability to segment the cerebrovascular system of the brain from the reconstructed volume.
-  ## 2. Extracting coordinates of different arteries to be used in estimating the AIF and generate the perfusion maps in order to investigate the influence of selecting different AIF locations on the perfusion maps.
+  ### 1. The ability to segment the cerebrovascular system of the brain from the reconstructed volume.
+  ### 2. Extracting coordinates of different arteries to be used in estimating the AIF and generate the perfusion maps in order to investigate the influence of selecting different AIF locations on the perfusion maps.
 
 ## The developed approach uses only the specific "DEN" file format as input. 
 #### Later it will be updated to use DICOM format.
