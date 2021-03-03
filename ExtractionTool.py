@@ -93,10 +93,10 @@ def MyCC3d(labeledarr,originalarr):
     labels_out = cc3d.connected_components(labeledarr,connectivity=connectivity)
     print("removing small size objects to decrease the output labels")
     #Removing small size objects to decrease the output labels, The following code line can be removed or modified depending on the expected size of the target object. 
-    interior_labels = morphology.remove_small_objects(labels_out, min_size=50)
+    # interior_labels = morphology.remove_small_objects(labels_out, min_size=5)
     print("relabelling")
     #Relablling to obtain sequence numbering. 
-    relabeled, _, _ = segmentation.relabel_sequential(interior_labels)
+    relabeled, _, _ = segmentation.relabel_sequential(labels_out)
     print("computing the objects properties")
     # regionprops = measure.regionprops(relabeled, intensity_image=originalarr)
     print("Computing the areas")
