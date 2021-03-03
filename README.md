@@ -1,9 +1,9 @@
 # CT Perfusion Repo
 # Aim: Generating perfusion maps from CTA images using different segmentation tools.
 
-## The developed approach uses only the specific DEN file format ""  as input.
+## The developed approach uses only the specific "DEN" file format as input.
 
-### First enhancement with normalization and contrast stretching is performed. 
+### First enhancement with normalization and contrast stretching are performed. 
 
 ### Currently three segmentation algorithm were developed for vessels extraction:
 
