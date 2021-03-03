@@ -1,7 +1,7 @@
 
 # Project title: "Brain vascular system segmentation using multisweep C-Arm CT protocols.
 
-# Aim: Investigate whether the reconstructed volume of 4D-CTA using time sepration technique provides sufficient diagnostic information by testing 
+## Aim: Investigate whether the reconstructed volume of 4D-CTA using time sepration technique provides sufficient diagnostic information by testing 
 
   ## 1. The ability to segment the cerebrovascular system of the brain from the reconstructed volume.
   ## 2. Extracting coordinates of different arteries to be used in estimating the AIF and generate the perfusion maps in order to investigate the influence of selecting different AIF locations on the perfusion maps.
